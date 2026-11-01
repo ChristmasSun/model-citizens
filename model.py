@@ -16,7 +16,9 @@ RAW = ROOT / "data" / "raw"
 TODAY = date.today()
 
 # Analyst prior: how many points we believe the national environment is *bluer*
-# than polls + fundamentals say. 0 = pure data. This is the "blue wave" dial.
+# than polls + fundamentals say. 0 = pure data. Basis: recall bias. Trump's 2024 gains among
+# low-propensity voters who now deny that vote make recalled-vote weighting over-count Trump
+# voters, an ~2 pt R lean in polls (statenavigate.com "Total Recall Bias", see README).
 WAVE = 2.0
 # Points of margin per tier of candidate-quality difference (see README rubric),
 # before polarization damping. No clean historical data, so this is a prior.

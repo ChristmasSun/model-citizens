@@ -41,6 +41,8 @@ All margins are measured as (opponent − Republican).
 6. **Simulation.** 50,000 simulated elections, each with a **shared national error** (SD 3.0 pts, centered on the historical average miss) plus race-level error (SD 5.3 pts in polled races, 9.0 in unpolled races; both fit on history). Races miss together, as they did in 2016 and 2022.
 7. **Wave prior (`WAVE = 2`).** This is our explicit analyst view that the environment is 2 points bluer than the data alone says. It moves the center of the national error. Set it to 0 for a pure-data forecast.
 
+   The basis is **recall bias** in poll responses ([State Navigate, "Total Recall Bias"](https://projects.statenavigate.com/features/total-recall-bias/)). Pollsters weight samples by how respondents say they voted in 2024. The groups where Trump made his largest 2024 gains (younger, non-white, lower-income, non-college, and politically disaffected voters) are the most likely to now say they didn't vote for him. Denying the 2024 vote reinforces how they plan to vote now. Weighting on that misremembered vote over-counts Trump voters and makes polls lean Republican. State Navigate estimates the error at about 2 points on the generic ballot, or about 1 point under its more conservative estimate.
+
 ### Candidate quality rubric (0–4)
 
 | Score | Meaning |
