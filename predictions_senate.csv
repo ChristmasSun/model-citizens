@@ -1,0 +1,36 @@
+race_id,chamber,predicted_winner_party,candidate_name,win_probability
+AK-SEN,Senate,D,Mary Peltola,0.653
+AL-SEN,Senate,R,Barry Moore,0.988
+AR-SEN,Senate,R,Tom Cotton,0.977
+CO-SEN,Senate,D,John Hickenlooper,0.996
+DE-SEN,Senate,D,Chris Coons,0.999
+FL-SEN,Senate,R,Ashley Moody,0.782
+GA-SEN,Senate,D,Jon Ossoff,0.964
+ID-SEN,Senate,R,Jim Risch,0.945
+IL-SEN,Senate,D,Juliana Stratton,0.996
+IA-SEN,Senate,D,Josh Turek,0.567
+KS-SEN,Senate,D,Adam Hamilton,0.764
+KY-SEN,Senate,R,Andy Barr,0.972
+LA-SEN,Senate,R,Julia Letlow,0.885
+ME-SEN,Senate,D,Troy Jackson,0.809
+MA-SEN,Senate,D,Ed Markey,1.0
+MI-SEN,Senate,D,Abdul El-Sayed,0.838
+MN-SEN,Senate,D,Peggy Flanagan,0.868
+MS-SEN,Senate,R,Cindy Hyde-Smith,0.801
+MT-SEN,Senate,R,Kurt Alme,0.958
+NE-SEN,Senate,R,Pete Ricketts,0.606
+NH-SEN,Senate,D,Chris Pappas,0.92
+NJ-SEN,Senate,D,Cory Booker,0.989
+NM-SEN,Senate,D,Ben Ray Luján,1.0
+NC-SEN,Senate,D,Roy Cooper,0.979
+OH-SEN,Senate,D,Sherrod Brown,0.788
+OK-SEN,Senate,R,Kevin Hern,0.99
+OR-SEN,Senate,D,Jeff Merkley,0.999
+RI-SEN,Senate,D,Jack Reed,1.0
+SC-SEN,Senate,R,Darline Graham,0.616
+SD-SEN,Senate,R,Mike Rounds,0.977
+TN-SEN,Senate,R,Bill Hagerty,0.998
+TX-SEN,Senate,D,James Talarico,0.721
+VA-SEN,Senate,D,Mark Warner,0.988
+WV-SEN,Senate,R,Shelley Moore Capito,0.999
+WY-SEN,Senate,R,Harriet Hageman,1.0

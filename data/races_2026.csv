@@ -1,0 +1,36 @@
+race_id,r_name,opp_name,opp_party,incumbent,r_quality,opp_quality,fund_adj,note
+AK-SEN,Dan Sullivan,Mary Peltola,D,R,3,3,0,Peltola won statewide (at-large House) in 2022
+AL-SEN,Barry Moore,Everett Wess,D,,2,0,0,
+AR-SEN,Tom Cotton,Hallie Shoffner,D,R,3,0,0,
+CO-SEN,Mark Baisley,John Hickenlooper,D,D,1,3,0,
+DE-SEN,Michael Katz,Chris Coons,D,D,0,3,0,
+FL-SEN,Ashley Moody,Angie Nixon,D,,3,1,0,Special; Moody appointed (ex-AG) so no elected-incumbent bonus
+GA-SEN,Mike Collins,Jon Ossoff,D,D,2,3,0,
+ID-SEN,Jim Risch,Todd Achilles,I,R,3,1,0,Independent challenger; no Democrat on ballot
+IL-SEN,Don Tracy,Juliana Stratton,D,,1,3,0,
+IA-SEN,Ashley Hinson,Josh Turek,D,,2,1,0,
+KS-SEN,Roger Marshall,Adam Hamilton,D,R,3,2,0,Hamilton: first-time candidate but megachurch pastor with record KS fundraising (+1)
+KY-SEN,Andy Barr,Charles Booker,D,,2,1,0,
+LA-SEN,Julia Letlow,Jamie Davis,D,,2,0,0,Cassidy lost renomination
+ME-SEN,Susan Collins,Troy Jackson,D,R,3,2,0,Jackson: former state senate president
+MA-SEN,John Deaton,Ed Markey,D,D,1,3,0,
+MI-SEN,Mike Rogers,Abdul El-Sayed,D,,2,1,0,
+MN-SEN,Michele Tafoya,Peggy Flanagan,D,,1,3,0,
+MS-SEN,Cindy Hyde-Smith,Scott Colom,D,R,3,1,0,
+MT-SEN,Kurt Alme,Seth Bodnar|Alani Bankhead,I|D,,1,2,-15,Four-way race; anti-R vote split between Bodnar (I) and Bankhead (D). fund_adj is the split penalty
+NE-SEN,Pete Ricketts,Dan Osborn,I,R,3,2,0,Osborn: independent who lost by only 7 in 2024 while Trump won NE by 20 (+1)
+NH-SEN,John Sununu,Chris Pappas,D,,4,2,0,Sununu: former senator
+NJ-SEN,Justin Murphy,Cory Booker,D,D,0,3,0,
+NM-SEN,Larry Marker,Ben Ray Luján,D,D,0,3,0,
+NC-SEN,Michael Whatley,Roy Cooper,D,,1,4,0,Cooper: two-term governor
+OH-SEN,Jon Husted,Sherrod Brown,D,,3,4,0,Special; Brown: former three-term senator; Husted appointed (ex-Lt Gov)
+OK-SEN,Kevin Hern,N'Kiyla Jasmine Thomas,D,,2,0,0,
+OR-SEN,David Brock Smith,Jeff Merkley,D,D,1,3,0,
+RI-SEN,Raymond McKay,Jack Reed,D,D,0,3,0,
+SC-SEN,Darline Graham,Annie Andrews,D,,1,1,0,Graham appointed after Lindsey Graham's death; never held elected office
+SD-SEN,Mike Rounds,Brian Bengs,I,R,3,0,0,Democratic nominee withdrew
+TN-SEN,Bill Hagerty,Marquita Bradshaw,D,R,3,0,0,
+TX-SEN,Ken Paxton,James Talarico,D,,2,2,0,Paxton: AG (3) minus scandal (-1). Talarico: state rep (1) plus standout campaign (+1)
+VA-SEN,Bert Mizusawa,Mark Warner,D,D,0,3,0,
+WV-SEN,Shelley Moore Capito,Rachel Fetty Anderson,D,R,3,0,0,
+WY-SEN,Harriet Hageman,James W. Byrd,D,,3,1,0,Hageman: at-large (statewide) House member
