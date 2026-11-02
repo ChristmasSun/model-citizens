@@ -1,7 +1,8 @@
 """2026 Senate forecast: fundamentals + polls + correlated simulation.
 
 All margins are (opponent − Republican) in points, so positive = the R loses.
-Run `uv run python fetch.py` once, then `uv run python model.py`.
+`uv run python model.py` reproduces the submitted predictions from the committed data snapshot.
+To refresh with newer polls, run `uv run python fetch.py` first and move SNAPSHOT_DATE to today.
 """
 
 from datetime import date
@@ -13,7 +14,8 @@ import statsmodels.formula.api as smf
 
 ROOT = Path(__file__).parent
 RAW = ROOT / "data" / "raw"
-TODAY = date.today()
+# Date of the committed data snapshot; polls are weighted by age relative to this.
+SNAPSHOT_DATE = date(2026, 11, 1)
 
 # Analyst prior: how many points we believe the national environment is *bluer*
 # than polls + fundamentals say. 0 = pure data. Basis: recall bias. Trump's 2024 gains among
@@ -170,7 +172,7 @@ def fit_blend(h: pd.DataFrame, fund) -> dict:
 def votehub() -> pd.DataFrame:
     v = pd.read_json(RAW / "votehub.json")
     v["end_date"] = pd.to_datetime(v.end_date).dt.date
-    v["days_old"] = [(TODAY - d).days for d in v.end_date]
+    v["days_old"] = [(SNAPSHOT_DATE - d).days for d in v.end_date]
     return v
 
 

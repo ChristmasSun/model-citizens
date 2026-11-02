@@ -2,9 +2,22 @@
 
 Win probabilities for all 35 Senate races in 2026: 33 regular seats plus the Ohio and Florida specials. Output is `predictions_senate.csv`.
 
+## How to run
+
+Requires [uv](https://docs.astral.sh/uv/). It installs Python 3.13 and the pinned dependencies automatically.
+
 ```sh
-uv run python fetch.py   # download raw data into data/raw/
-uv run python model.py   # fit, simulate, write predictions_senate.csv
+uv run python model.py
+```
+
+This reproduces the submitted `predictions_senate.csv` exactly. It uses the raw data snapshot committed in `data/raw/` (pulled Nov 1, 2026) and a fixed random seed. It also prints the fitted regression, the backtest errors, and a table of every race.
+
+To refresh with newer polls instead:
+
+```sh
+uv run python fetch.py   # re-download every source into data/raw/
+# then set SNAPSHOT_DATE in model.py to today's date
+uv run python model.py
 ```
 
 ## Data
